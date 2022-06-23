@@ -1,0 +1,48 @@
+.jollibee-logo:hover,
+.jollibee-visit:hover{
+    background-color: rgb(255, 0, 0);
+    color: yellow;
+    text-shadow:rgb(255, 0, 0);
+
+    box-shadow: black;
+    border-style: solid;
+    border-width: 1px;
+
+    transition: 1s;
+}
+
+.albertos-logo:hover,
+.albertos-visit:hover{
+    background-color: rgb(255, 0, 0);
+    color: yellow;
+    text-shadow:rgb(255, 0, 0);
+
+    box-shadow: black;
+    border-style: solid;
+    border-width: 1px;
+
+    transition: 1s;
+}
+
+.shakeys-logo:hover,
+.shakeys-visit:hover{
+    background-color: rgb(255, 0, 0);
+    color: yellow;
+    text-shadow:rgb(255, 0, 0);
+
+    box-shadow: black;
+    border-style: solid;
+    border-width: 1px;
+
+    transition: 1s;
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover,
+.google:hover{
+    background-color:white;
+    border-color: orange;
+
+    transition: 1s ease;
+}

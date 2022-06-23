@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color: red;
+}
+
+.title-bar{
+    background-color: white;
+    height:80px;
+    border-color:rgb(224, 219, 219);
+    border-width:0px 0px 2px;
+    border-style:solid;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    
+}
+
+.left-section{
+    margin-left:1%;
+    display: flex;
+    align-items: center;
+}
+
+.foodhunts-logo{
+    height: 78px;
+    width:200px;
+    margin-left:60px;
+}
+
+.foodhunts-icon{
+    width:20px;
+    align-items: center;
+}
+
+.middle-section{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-left: 80px;
+    margin-right:70px;
+    max-width:700px;
+}
+
+.search-bar{
+    flex: 1;
+    height: 34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight:lighter;
+    padding-left: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(202, 200, 200);
+    display: flex;
+    align-items: center;
+    width: 0px;
+}
+
+.search-bar::placeholder{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.search-icon{
+    height: 29px;
+    margin-left:0px;
+}
+
+
+.right-section{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-right:20px;
+    flex-shrink: 0;
+}
+
+.file-extensions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.help{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+a{
+    text-decoration: none;
+}
